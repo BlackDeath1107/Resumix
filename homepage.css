@@ -3,11 +3,27 @@
     padding: 0;
     font-family: sans-serif;
 }
+.morestuff{
+    background-image: url('image2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 .banner{
     width: 100%;
     height: 100vh;
     height: 100vh;
     overflow: hidden;
+    background-image:url('image.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-container{
+    background-image: url('image.jpg');
 }
 .morestuff{
     align-items: center;
@@ -50,7 +66,7 @@
     width: 100%;
 }
 .content{
-
+    
     width: 100%;
     position: absolute;
     top: 50%;
@@ -62,6 +78,7 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    
 }
 .content h1{
     font-size: 70px;
@@ -118,7 +135,7 @@ h1{
     background-color: rgba(0,0,0,0.1);
     transform: scale(1.04);
     -webkit-animation-name: zoomin;
-    -webkit-animation-duration: 0.8s;
+    -webkit-animation-duration:4s;
   }
   .middle-container {
     background: rgba(0,0,0,0.1);
@@ -133,7 +150,7 @@ h1{
     background-color: rgba(0,0,0,0.1);
     transform: scale(1.04);
     -webkit-animation-name: zoomin;
-    -webkit-animation-duration: 0.8s;
+    -webkit-animation-duration: 4s;
   }
   .right-container {
     background: rgba(0,0,0,0.1);
@@ -148,7 +165,7 @@ h1{
     background-color: rgba(0,0,0,0.1);
     transform: scale(1.04);
     -webkit-animation-name: zoomin;
-    -webkit-animation-duration: 0.8s;
+    -webkit-animation-duration: 4s;
   }
   .table{
        
