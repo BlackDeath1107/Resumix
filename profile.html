@@ -33,32 +33,33 @@
                                 <div class="form">
                                     <label>Your Name:</label>
                                     <br>
-                                    <input type="text" name="yourName" value="">
+                                    <input id="name" type="text" name="yourName" value="">
                                     <br>
                                     <br>
                                     <label>Education:</label>
                                     <br>
-                                    <input type="text" name="education" value="">
+                                    <input id="edu" type="text" name="education" value="">
                                     <br>
                                     <br>
                                     <label>Experience:</label>
                                     <br>
-                                    <input type="text" name="experience" value="">
+                                    <input id="exp"type="text" name="experience" value="">
                                     <br> 
                                     <br>
                                     <label>Contact Number:</label>
                                     <br>
-                                    <input type="text" name="experience" value="">
+                                    <input id="num" type="text" name="experience" value="">
                                     <br> 
                                     <br>
                                     <label>Email:</label>
                                     <br>
-                                    <input type="text" name="experience" value="">
+                                    <input id="Email"type="text" name="experience" value="">
                                     <br> 
                                     <br>
-                                    <input type="submit" name="" class="submit">
+                                    
                                 </div>
                                 </td>
+                                
                                 <td>
                                 <ul>
                                             <li><label for="skills" class="skills">Skills:</label>
@@ -82,19 +83,30 @@
                                             <br>  
                                             
                                             <select name="type" id="type" class="dropdown">
+                                            <option value="select here">select here</option>
                                             <option value="select here">Online,Full-time</option>
                                             <option value="select here">Online,Part-time</option>
                                             <option value="select here">Offline,Full-time</option>
                                             <option value="select here">Offline,Part-time</option>
                                         </select></li>
+                                        <li><label for="salary" class="salary">Salary Expectancy:</label>
+                                            <br>  
+                                            
+                                            <select name="type" id="type" class="dropdown">
+                                            <option value="select here">select here</option>
+                                            <option value="select here">less than 5000</option>
+                                            <option value="select here">5000-15000</option>
+                                            <option value="select here">15000-25000</option>
+                                            <option value="select here">more than 25000</option>
+                                        </select></li>
 
-
-                                        <li><button type="button">JOB SUGGESTION</button></li>
-                                        <li><button type="button">SALARY EXPECTANCY</button></li>
+                                        
                                     </ul>
                                 </tr>
                                 </table>
-                            </div>                  
+                                <button  type="submit" name="" class="submit" onclick="test()"><span></span>GENERATE CV</button>
+                                <button type="button"><span></span>JOB SEARCH</button>
+                            </div>                 
                         </div>
                     </div>
                 </div>
@@ -102,3 +114,4 @@
         </div>
     </div>
 </body>
+<script src="./input.js"></script>
