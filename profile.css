@@ -157,8 +157,11 @@ p{
     border-color: #93C6E7;
     font-size: 15px;
     text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
 }
 .submit:hover{
     background:  #89C4E1;
     text-decoration: none;
 }
+
